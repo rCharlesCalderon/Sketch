@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+
+body {
+    background-color: #ff8c00;
+
+}
+
+
+
+.Etch h1 {
+    margin: 0;
+}
+
+.Etch {
+    justify-content: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 2em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#container {
+    border: 1px green solid;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
+
+.rows {
+    border: 1px lightslategray solid;
+
+}
+
+
+button {
+    width: 150px;
+}
